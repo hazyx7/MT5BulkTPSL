@@ -31,29 +31,10 @@ pip install MetaTrader5
 ## ▶️ How to Use
 
 1. Open your MT5 terminal and make sure trades are active.
-2. Run the script:
+2. Run the script
+3. Enter **TP and SL as prices** (e.g., `TP = 3285.00`, `SL = 3296.00`). Use `0` to skip either field.
+4. Script applies the values to all trades.
 
-```bash
-python bulk_tp_sl_setter.py
-```
-
-3. You'll see all your open trades listed.
-4. Enter **TP and SL as prices** (e.g., `TP = 3285.00`, `SL = 3296.00`). Use `0` to skip either field.
-5. Script applies the values to all trades.
-
----
-
-## ❗ Troubleshooting
-
-- **Algo Trading Disabled**  
-  If you see:
-  ```
-  RetCode: 10027 | AutoTrading disabled by client
-  ```
-  Go to MetaTrader 5 and enable `Algo Trading`.
-
-- **No Trades**  
-  The script only works with open positions.
 
 ---
 
