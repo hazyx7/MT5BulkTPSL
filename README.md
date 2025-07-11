@@ -1,7 +1,4 @@
 
-# STILL IN DEVELOPMENT !
-
-
 
 # MT5 Bulk TP/SL Setter
 
