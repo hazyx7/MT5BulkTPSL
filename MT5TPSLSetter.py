@@ -1,6 +1,15 @@
-import MetaTrader5 as mt5
-import time
 import os
+import sys
+import time
+import subprocess
+
+# Check and install required packages
+try:
+    import MetaTrader5 as mt5
+except ImportError:
+    print("MetaTrader5 package not found. Installing now...")
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "MetaTrader5"])
+    import MetaTrader5 as mt5
 
 # Console setup
 os.system("chcp 65001 >nul")
