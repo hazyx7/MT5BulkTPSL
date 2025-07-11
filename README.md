@@ -16,17 +16,12 @@ A simple Python tool to **apply TP and SL to all open trades** in your MetaTrade
 
 ---
 
-## 🚀 Requirements
+## 🛠 Requirements
 
 - MetaTrader 5
-- Python
 - MT5 must have "Algo Trading" enabled
-
-Paste this code in cmd to install required Pip packages:
-
-```bash
-pip install MetaTrader5
-```
+- Python
+  > Required pip packages auto-installed on first run
 
 ---
 
@@ -42,4 +37,4 @@ pip install MetaTrader5
 
 ## 📬 Contact
 
-Have suggestions or issues? Reach out on Telegram: [@Haise](https://t.me/hazyx7)
+- **Telegram:** [@Haise](https://t.me/hazyx7)
